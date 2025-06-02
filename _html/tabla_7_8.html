@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta charset="UTF-8">
+        <title>Tabla 7 y 8 - Encabezados y Anidación</title>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="../_css/styles7.css">
+    </head>
+    <body>
+        <header>
+            <h1><strong>Tabla 7 y 8 - Encabezados destacados y tablas anidadas</strong></h1>
+        </header>
+        <main>
+            <section>
+                <h2><q>Tabla con encabezados destacados</q></h2>
+                <h3><em>Tabla de servicios mecánicos</em></h3>
+                <table class="encabezado-destacado">
+                    <thead>
+                        <tr>
+                            <th>Servicio</th>
+                            <th>Precio</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Lavado</td>
+                            <td>$15.000</td>
+                        </tr>
+                        <tr>
+                            <td>Cambio de llantas</td>
+                            <td>$55.000</td>
+                        </tr>
+                        <tr>
+                            <td>Calibración de llantas</td>
+                            <td>$8.00</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </section>
+
+            <section>
+                <h2>Tabla con tabla anidada</h2>
+                <h3><em>Tabla de revición de cumplimientos</em></h3>
+                <table class="anidada">
+                    <thead>
+                        <tr>
+                            <th>Empleado</th>
+                            <th>Detalles</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Pedro</td>
+                            <td>
+                                <table> <!--Inicio tabla anidada-->
+                                    <thead>
+                                        <tr>
+                                            <th>Tarea</th>
+                                            <th>Estado</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td>Revisión</td>
+                                            <td>Hecho</td>
+                                        </tr>
+                                        <tr>
+                                            <td>Entrega</td>
+                                            <td>Pendiente</td>
+                                        </tr>
+                                    </tbody>
+                                </table> <!-- Fin tabla anidad-->
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Pablo</td>
+                            <td>
+                                <table> <!-- Inicio tabla anidad-->
+                                    <thead>
+                                        <tr>
+                                            <th>Documentos</th>
+                                            <th>Entregó</th>
+                                            <th>No entregó</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td>Cedula</td>
+                                            <td>X</td>
+                                            <td> </td>
+                                        </tr>
+                                        <tr>
+                                            <td>EPS</td>
+                                            <td> </td>
+                                            <td>X</td>
+                                        </tr>
+                                    </tbody>
+                                </table> <!-- Fin tabla anidad-->
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </section>
+            <br>
+        </main>
+        <div class="boton">
+            <a href="../_github/index.html" class="next-page">Volver</a>
+        </div>
+        <footer>
+            <p>&copy; Tablas HTML - Lizeth Gutierrez - 3147235</p>
+        </footer>
+    </body>
+</html>
